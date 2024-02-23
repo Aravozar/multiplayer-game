@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://dem3xf3rcob25"]
 
-[ext_resource type="Script" path="res://player.cs" id="1_5r2lb"]
+[ext_resource type="Script" path="res://player.gd" id="1_84x7c"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_arva2"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_uak53"]
 
 [node name="Player" type="CharacterBody3D"]
-script = ExtResource("1_5r2lb")
+script = ExtResource("1_84x7c")
 
 [node name="Pivot" type="Node3D" parent="."]
 
